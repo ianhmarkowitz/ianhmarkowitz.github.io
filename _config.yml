@@ -1,1 +1,17 @@
-theme: jekyll-theme-slate
+# Site settings
+title: Ian Markowitz
+email: Ian@ihmarkowitz.com
+description: >
+  Ian Markowitz's Blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ihmarkowitz.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  ianhmarkowitz
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
